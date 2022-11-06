@@ -1,3 +1,4 @@
+
 it('17 равно 17', () => {
   expect(17).toEqual(17);
 });
@@ -12,5 +13,4 @@ it('get number', () => {
   const result = getEvenNumbers([1, 2, 3, 4]);
   expect(result).toEqual([2, 4]);
 });
-
 
