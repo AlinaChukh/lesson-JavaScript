@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/AlinaChukh/lesson-JavaScript/issues"
   },
-  "homepage": "https://github.com/AlinaChukh/lesson-JavaScript#readme"
+  "homepage": "https://github.com/AlinaChukh/lesson-JavaScript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
+  }
 }
