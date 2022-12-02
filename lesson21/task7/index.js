@@ -1,6 +1,7 @@
-export const clearList = () => {
+const clearList = () => {
   const listElem = document.querySelector('.categories');
   listElem.innerHTML = '';
+  return listElem;
 };
 
-clearList('I am little girl');
+clearList();
