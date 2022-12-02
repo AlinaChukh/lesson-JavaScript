@@ -13,12 +13,12 @@ export const getPlans = () => {
   return plansElem.innerHTML;
 };
 
-export const getCoal = () => {
-  const coalElem = document.querySelector('.goal');
-  return coalElem.outerHTML;
+export const getGoal = () => {
+  const goalElem = document.querySelector('.goal');
+  return goalElem.outerHTML;
 };
 
 getTitle();
 getDescription();
 getPlans();
-getCoal();
+getGoal();
