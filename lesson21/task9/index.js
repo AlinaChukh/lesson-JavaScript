@@ -1,11 +1,11 @@
 export const finishList = () => {
   const listElem = document.querySelector('ul'); //нашла
+  const listElemClass = document.querySelector('.special'); // нашла
 
   const elemList1 = document.createElement('li'); //создала
   elemList1.textContent = 1; //добавила текст
   listElem.prepend(elemList1); //вставила елемент вначало
 
-  const listElemClass = document.querySelector('.special');
   const elemList2 = document.createElement('li'); //создала
   elemList2.textContent = 4; //добавила текст
   listElemClass.before(elemList2); //вставила елемент до
