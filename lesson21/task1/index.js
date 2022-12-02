@@ -1,6 +1,6 @@
 'use strict';
 
-const tasks = [
+export const tasks = [
   { text: 'Buy milk', done: false },
   { text: 'Pick up Tom from airport', done: false },
   { text: 'Visit party', done: false },
@@ -14,6 +14,7 @@ const tasks = [
  */
 const renderTasks = (tasksList) => {
   const tasksListElem = document.querySelector('.list'); // где создаем, внутри .list новый список
+  tasksListElem.innerHTML = '';
 
   const listItemsElem = tasksList
     .sort((a, b) => a.done - b.done) //сортировка по выполненым задачам
