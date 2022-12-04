@@ -1,4 +1,4 @@
-const finishForm = () => {
+export const finishForm = () => {
   const elemFormInput = document.querySelector('form');
 
   const elemNewType = document.querySelector('input');
