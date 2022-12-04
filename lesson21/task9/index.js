@@ -19,4 +19,4 @@ export const finishList = () => {
   listElem.append(elemList); //вставила елемент в конец
 };
 
-finishList();
+// finishList();
