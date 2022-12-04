@@ -9,4 +9,4 @@ export const finishForm = () => {
   document.querySelector('[name=password]').setAttribute('type', 'password');
 };
 
-finishForm();
+// finishForm();
