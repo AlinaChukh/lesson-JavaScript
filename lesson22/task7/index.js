@@ -1,7 +1,7 @@
 const elementsBtn = document.querySelectorAll('.btn');
 
-elementsBtn.forEach((el) =>
-  el.addEventListener('click', () => {
-    console.log(el.textContent);
-  })
-);
+const handleClick = (event) => {
+  console.log(event.target.textContent);
+};
+
+elementsBtn.forEach((el) => el.addEventListener('click', handleClick));
