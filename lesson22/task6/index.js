@@ -1,9 +1,8 @@
 const elemBtn = document.querySelector('.single-use-btn');
 
-elemBtn.addEventListener(
-  'click',
-  (clickBtnElem = () => {
-    console.log('clicked');
-    elemBtn.removeEventListener('click', clickBtnElem);
-  })
-);
+const clickBtnElem = () => {
+  console.log('clicked');
+  elemBtn.removeEventListener('click', clickBtnElem);
+};
+
+elemBtn.addEventListener('click', clickBtnElem);
